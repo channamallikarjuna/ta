@@ -1,0 +1,149 @@
+fieldset
+{
+	
+	text-align: center;
+
+}
+legend
+{
+	font-size: 20pt;
+	color: rgb(100%,23%,0%)
+
+}
+select
+{
+	width: 500px;
+	font-size: 25px;
+	
+}
+.header
+{
+	color: #ff0000;
+text-align: center;
+
+font-family: times new roman;
+
+position:sticky;
+top:0;
+font-size: 60px;
+/*background-color: rgba(238,138,238);*/
+/*border-style: dashed;
+border-radius: 1500px;
+border-color: #A52A2A;*/
+
+
+}
+#maindiv
+{
+	margin-left:10%;
+	padding:0.5px 8px;
+	height: 1000px;
+	background-image:url(download6.jpeg); 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-size: cover;
+}
+#formss{
+	
+  /*background-color: #DB7093;*/
+  background-image: url(login4.jpeg);
+  background-repeat: no-repeat;
+	 background-attachment: fixed; 
+	 background-size: cover;
+
+  width: 500px;
+  border: 5px solid #000000;
+  padding: 50px;
+  margin: auto;
+}
+#details
+{
+	background-color: #4682B4;
+  width: 500px;
+  border: 5px solid #000000;
+  padding: 50px;
+  margin: auto;
+
+}
+.full
+{
+	position: sticky;
+	top:0;
+	/*border-style: double;
+	border-color: #8B4513 ;
+	background-color: #FFFFFF
+	background-color: #FFC0CB;
+	background-color: #FFFFFF*/
+	background-image:url(download6.jpeg);
+	background-repeat: no-repeat;
+	 background-attachment: fixed; 
+	 background-size: cover;
+
+}
+
+.dates
+{
+	color: rgb(0,0,100);
+	text-align: right;
+	font-size: 16px;
+}
+#box
+{
+	font-size: 18pt;
+    height: 38px;
+    width : 500px;
+    color: #000080;
+    /*color: rgb(32%,0%,0%);
+    background-color:rgb(240,240,240);
+    border-color: rgb(0,0,0);*/
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid #000000;
+}
+::placeholder
+{
+	color: #000000;
+}
+body {
+  margin: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  width: 10%;
+  /*background-color: #f1f1f1;*/
+  background-image:url(download6.jpeg);
+	background-repeat: no-repeat;
+	 background-attachment: fixed; 
+	 background-size: cover;
+	 
+	border-width: 2px;
+	border-color: #000000;
+	border-style: solid;
+	color: #FFFFFF;
+
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #111111;
+  padding: auto;
+  text-decoration: none;
+}
+
+
+li a.active {
+  background-color: #A52A2A;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #FF4500;
+  color: white;
+}
